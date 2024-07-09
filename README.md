@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-# Script_Download-VideosYT
-# Script_Download-VideosYT
-# Scan_Portas-Abertas
-# Scan_Portas-Abertas
-# Scan_Portas-Abertas
-# ScanSSID
-=======
+
  Scan_Portas-Abertas Alpha
 
  
