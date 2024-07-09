@@ -9,7 +9,8 @@ from threading import Thread
 # Função para verificar se uma porta está aberta
 def is_port_open(host, port):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.settimeout(1)  # Define um tempo limite de 1 segundo para a conexão
+    s.settimeout(1)  
+  # Define um tempo limite de 1 segundo para a conexão
     try:
         s.connect((host, port))
     except (socket.timeout, socket.error):
@@ -38,6 +39,7 @@ def scan_button_clicked():
         return
 
     # Realizar o escaneamento em uma thread separada para não travar a interface
+    
     def scan_ports_threaded():
         try:
             open_ports = scan_ports(host, start_port, end_port)
